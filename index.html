@@ -1,0 +1,390 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta http-equiv="cleartype" content="on">
+    <title> TEST </title>
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/touch/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/touch/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/touch/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/touch/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" sizes="196x196" href="images/touch/touch-icon-196x196.png">
+    <link rel="shortcut icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#222222">
+
+    <!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->
+<!--
+<link rel="canonical" href="http://www.example.com/" >
+-->
+
+<!-- Add to homescreen for Chrome on Android -->
+<!--
+<meta name="mobile-web-app-capable" content="yes">
+-->
+
+<!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+<!--
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="">
+-->
+
+<!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+<!--
+<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+-->
+<!-- build:css styles/components/main.min.css -->
+<link rel="stylesheet" href="styles/components/components.css">
+<link rel="stylesheet" href="styles/h5bp.css">
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/rpi.css">
+<!-- endbuild -->
+</head>
+<body>
+    <header class="app-bar promote-layer">
+        <div class="app-bar-container">
+            <!-- <button class="menu"><img src="images/hamburger.svg"></button> -->
+            <h1 class="logo">Raspberry Pi Kit</h1>
+            <section class="app-bar-actions">
+                <!-- Put App Bar Buttons Here -->
+            </section>
+        </div>
+    </header>
+    <nav class="navdrawer-container promote-layer">
+        <h4>Navigation</h4>
+        <ul>
+            <li><a href="index.html#rpiinfo">Rpi Info</a></li>
+            <li><a href="index.html#start">GPIO Started</a></li>
+            <li><a href="index.html#guide">Guide</a></li>
+            <li><a href="index.html#sheet">Sheet</a></li>
+            <li><a href="index.html#about">About</a></li>
+        </ul>
+    </nav>
+
+    <a name="rpiinfo"></a>
+    <section class="styleguide__table">
+        <div class="code-sample">
+            <table class="table-4">
+                <colgroup>
+                <col span="1">
+                <col span="1">
+                <col span="1">
+                <col span="1">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>ARM Freq.</th>
+                    <th>Core Freq.</th>
+                    <th>Core Volt</th>
+                    <th>Temperature</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-th="element"><code>src</code></td>
+                    <td data-th="availability">All browsers</td>
+                    <td data-th="description">Gives the address (URL) of the video.</td>
+                    <td data-th="description">Gives the address (URL) of the video.</td>
+                </tr></tbody></table>
+                <table class="table-4">
+                    <colgroup>
+                    <col span="1">
+                    <col span="1">
+                    <col span="1">
+                    <col span="1">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>ARM Mem.</th>
+                        <th>GPU Mem.</th>
+                        <th>Config File</th>
+                        <th>Startup Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="element"><code>src</code></td>
+                        <td data-th="availability">All browsers</td>
+                        <td data-th="description">Gives the address (URL) of the video.</td>
+                        <td data-th="description">Gives the address (URL) of the video.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+
+
+    <a name="start"></a>
+    <a name="guide"></a>
+
+
+    <a name="sheet"></a>
+    <table class="gpio">
+        <tbody>
+            <tr>
+                <td colspan="8"><span style="font-size: 20px;font-weight: 500;">
+                    <b>Raspberry Pi GPIO</b></span><br><br>
+                </td>
+            </tr>
+                    <tr>
+                        <!-- <td class="col1"><b>WiringPi</b></td> -->
+                        <td class="col1"><b>Rev 2</b></td>
+                        <td class="col1"><b>Rev 1</b></td>
+                        <td class="col2"></td>
+                        <td></td>
+                        <td></td>
+                        <td class="col3"></td>
+                        <td class="col4"><b>Rev 1</b></td>
+                        <td class="col4"><b>Rev 2</b></td>
+                        <!-- <td class="col4"><b>WiringPi</b></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi"></td> -->
+                        <td class="col1 rev2" style="background: #f4b400">3.3 V</td>
+                        <td class="col1 rev1" style="background: #f4b400">3.3 V</td>
+                        <td class="col2">1</td>
+                        <td class="inner left topleft"></td>
+                        <td class="inner right topright"></td>
+                        <td class="col3">2</td>
+                        <td class="col4 rev1" style="background: #cf423a">5V0</td>
+                        <td class="col4 rev2" style="background: #cf423a">5V0</td>
+                        <!-- <td class="col4 wpi"></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">8</td> -->
+                        <td class="col1 rev2">GPIO 2</td>
+                        <td class="col1 rev1">GPIO 0</td>
+                        <td class="col2">3</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">4</td>
+                        <td class="col4 rev1" style="background: #cf423a">5V</td>
+                        <td class="col4 rev2" style="background: #cf423a">5V</td>
+                        <!-- <td class="col4 wpi"></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">9</td> -->
+                        <td class="col1 rev2">GPIO 3</td>
+                        <td class="col1 rev1">GPIO 1</td>
+                        <td class="col2">5</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">6</td>
+                        <td class="col4 rev1" style="background: #000000">GND</td>
+                        <td class="col4 rev2" style="background: #000000">GND</td>
+                        <!-- <td class="col4 wpi"></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">7</td> -->
+                        <td class="col1 rev2" style="background: #0f9d58">GPIO 4</td>
+                        <td class="col1 rev1" style="background: #0f9d58">GPIO 4</td>
+                        <td class="col2">7</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">8</td>
+                        <td class="col4 rev1" style="background: #f4b400">GPIO 14</td>
+                        <td class="col4 rev2" style="background: #f4b400">GPIO 14</td>
+                        <!-- <td class="col4 wpi">15</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi"></td> -->
+                        <td class="col1 rev2" style="background: #000000">GND</td>
+                        <td class="col1 rev1" style="background: #000000">GND</td>
+                        <td class="col2">9</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">10</td>
+                        <td class="col4 rev1" style="background: #f4b400">GPIO 15</td>
+                        <td class="col4 rev2" style="background: #f4b400">GPIO 15</td>
+                        <!-- <td class="col4 wpi">16</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">0</td> -->
+                        <td class="col1 rev2" style="background: #0f9d58">GPIO 17</td>
+                        <td class="col1 rev1" style="background: #0f9d58">GPIO 17</td>
+                        <td class="col2">11</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">12</td>
+                        <td class="col4 rev1" style="background: #0f9d58">GPIO 18</td>
+                        <td class="col4 rev2" style="background: #0f9d58">GPIO 18</td>
+                        <!-- <td class="col4 wpi">1</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">2</td> -->
+                        <td class="col1 rev2" style="background: #0f9d58">GPIO 27</td>
+                        <td class="col1 rev1" style="background: #0f9d58">GPIO 21</td>
+                        <td class="col2">13</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">14</td>
+                        <td class="col4 rev1" style="background: #000000">GND</td>
+                        <td class="col4 rev2" style="background: #000000">GND</td>
+                        <!-- <td class="col4 wpi"></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">3</td> -->
+                        <td class="col1 rev2" style="background: #0f9d58">GPIO 22</td>
+                        <td class="col1 rev1" style="background: #0f9d58">GPIO 22</td>
+                        <td class="col2">15</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">16</td>
+                        <td class="col4 rev1" style="background: #0f9d58">GPIO 23</td>
+                        <td class="col4 rev2" style="background: #0f9d58">GPIO 23</td>
+                        <!-- <td class="col4 wpi">4</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi"></td> -->
+                        <td class="col1 rev2" style="background: #f4b400">3V3</td>
+                        <td class="col1 rev1" style="background: #f4b400">3V3</td>
+                        <td class="col2">17</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">18</td>
+                        <td class="col4 rev1" style="background: #0f9d58">GPIO 24</td>
+                        <td class="col4 rev2" style="background: #0f9d58">GPIO 24</td>
+                        <!-- <td class="col4 wpi">5</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">12</td> -->
+                        <td class="col1 rev2" style="background: #7b5294">GPIO 10</td>
+                        <td class="col1 rev1" style="background: #7b5294">GPIO 10</td>
+                        <td class="col2">19</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">20</td>
+                        <td class="col4 rev1" style="background: #000000">GND</td>
+                        <td class="col4 rev2" style="background: #000000">GND</td>
+                        <!-- <td class="col4 wpi"></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">13</td> -->
+                        <td class="col1 rev2" style="background: #7b5294">GPIO 9</td>
+                        <td class="col1 rev1" style="background: #7b5294">GPIO 9</td>
+                        <td class="col2">21</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">22</td>
+                        <td class="col4 rev1" style="background: #0f9d58">GPIO 25</td>
+                        <td class="col4 rev2" style="background: #0f9d58">GPIO 25</td>
+                        <!-- <td class="col4 wpi">6</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">14</td> -->
+                        <td class="col1 rev2" style="background: #7b5294">GPIO 11</td>
+                        <td class="col1 rev1" style="background: #7b5294">GPIO 11</td>
+                        <td class="col2">23</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">24</td>
+                        <td class="col4 rev1" style="background: #7b5294">GPIO 8</td>
+                        <td class="col4 rev2" style="background: #7b5294">GPIO 8</td>
+                        <!-- <td class="col4 wpi">10</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi"></td> -->
+                        <td class="col1 rev2" style="background: #000000">GND</td>
+                        <td class="col1 rev1" style="background: #000000">GND</td>
+                        <td class="col2">25</td>
+                        <td class="inner left bottomleft"></td>
+                        <td class="inner right bottomright"></td>
+                        <td class="col3">26</td>
+                        <td class="col4 rev1" style="background: #7b5294">GPIO 7</td>
+                        <td class="col4 rev2" style="background: #7b5294">GPIO 7</td>
+                        <!-- <td class="col4 wpi">11</td> -->
+                    </tr>
+                    <tr>
+                        <td colspan="8"><b>P5 header</b>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi"></td> -->
+                        <td class="col1 rev2" style="background: #cf423a">5V0</td>
+                        <td class="col1 rev1" style="background: #cf423a">5V0</td>
+                        <td class="col2">1</td>
+                        <td class="inner left topleft"></td>
+                        <td class="inner right topright"></td>
+                        <td class="col3">2</td>
+                        <td class="col4 rev1" style="background: #f4b400">3.3 V</td>
+                        <td class="col4 rev2" style="background: #f4b400">3.3 V</td>
+                        <!-- <td class="col4 wpi"></td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">17</td> -->
+                        <td class="col1 rev2">GPIO 28</td>
+                        <td class="col1 rev1">GPIO 28</td>
+                        <td class="col2">3</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">4</td>
+                        <td class="col4 rev1">GPIO 29</td>
+                        <td class="col4 rev2">GPIO 29</td>
+                        <!-- <td class="col4 wpi">18</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi">19</td> -->
+                        <td class="col1 rev2">GPIO 30</td>
+                        <td class="col1 rev1">GPIO 30</td>
+                        <td class="col2">5</td>
+                        <td class="inner left"></td>
+                        <td class="inner right"></td>
+                        <td class="col3">6</td>
+                        <td class="col4 rev1">GPIO 31</td>
+                        <td class="col4 rev2">GPIO 31</td>
+                        <!-- <td class="col4 wpi">20</td> -->
+                    </tr>
+                    <tr>
+                        <!-- <td class="col1 wpi"></td> -->
+                        <td class="col1 rev2" style="background: #000000">GND</td>
+                        <td class="col1 rev1" style="background: #000000">GND</td>
+                        <td class="col2">7</td>
+                        <td class="inner left bottomleft"></td>
+                        <td class="inner right bottomright"></td>
+                        <td class="col3">8</td>
+                        <td class="col4 rev1" style="background: #000000">GND</td>
+                        <td class="col4 rev2" style="background: #000000">GND</td>
+                        <!-- <td class="col4 wpi"></td> -->
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <script>
+                (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+                e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+                e.src='//www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+                ga('create','UA-XXXXX-X');ga('send','pageview');
+            </script>
+
+            <a name="about"></a>
+            <section class="styleguide__feature-spotlight">
+                <div class="featured-spotlight">
+                    <div class="container-medium">
+                        <div class="featured-spotlight__container g--pull-half">
+                            <div class="featured-spotlight__img">
+                                <img src="../images/icons/placeholder--wide.png" alt="image exemple">
+                            </div>
+
+                            <div class="container-small">
+                                <h3 class="xxlarge">Raspberry Pi Kit</h3>
+                                <p>GPIO pin's - also General Purpose Input Output - form the entral interface between the Raspberry Pi to external devices and digital circuits. Here, assume certain Pin's addition to the simple control certain functions such as communication via I2C, UART or SPI.</p>
+                                <a href="#rpiinfo" class="cta--primary">Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </body>
+        </html>
