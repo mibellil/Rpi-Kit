@@ -7,7 +7,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta http-equiv="cleartype" content="on">
-    <title> Rpi Kit </title>
+    <title>{{ title }}</title>
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/touch/apple-touch-icon-144x144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/touch/apple-touch-icon-114x114-precomposed.png">
@@ -96,10 +96,10 @@
             </thead>
             <tbody>
                 <tr>
-                    <td data-th="element"><code>ARM Freq.</code></td>
-                    <td data-th="availability">Core Freq</td>
-                    <td data-th="description">Core Volt</td>
-                    <td data-th="description">Temperature</td>
+                    <td data-th="element"><code>{{ armclk }} MHz</code></td>
+                    <td data-th="availability">{{ coreclk }} MHz</td>
+                    <td data-th="description">{{ corevolt }}</td>
+                    <td data-th="description">{{ coretemp }}</td>
                 </tr></tbody></table>
                 <table class="table-4">
                     <colgroup>
@@ -118,10 +118,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td data-th="element"><code>ARM Mem.</code></td>
-                        <td data-th="availability">GPU Mem.</td>
-                        <td data-th="description">Config File</td>
-                        <td data-th="description">Startup Time</td>
+                        <td data-th="element"><code>{{ armmem }}</code></td>
+                        <td data-th="availability">{{ gpumem }}</td>
+                        <td data-th="description">{{ configint }}</td>
+                        <td data-th="description">{{ starttime }}</td>
                     </tr>
                 </tbody>
             </table>
